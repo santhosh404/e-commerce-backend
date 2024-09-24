@@ -12,7 +12,7 @@ const app = express();
 //Adding middlewares
 app.use(express.json());
 app.use(cors({
-    origin: ['https://ecommercesitelandingpage.netlify.app/', 'http://localhost:5173'], // specify allowed origins
+    origin: ['https://ecommercesitelandingpage.netlify.app', 'http://localhost:5173'], // specify allowed origins
 }));
 
 //connect to db
